@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background: rgba(0, 0, 0, .7);
+    font-weight: bold;
+   
+}
+
+.navbar__logo img{
+    height: 110px;
+    width: 180px;
+    object-fit: cover;
+}
+
+.navbar__links{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    opacity: 1;
+}
+
+.navbar__links a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-style: italic;
+}
